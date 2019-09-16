@@ -1,0 +1,9 @@
+.card{
+    transform-origin: 25% 25%;
+    transition: transform 0.75s, filter 0.75s ease-in-out;
+    filter: brightness(100%);
+}
+.card:hover{
+    filter: brightness(110%);
+    transform: scale(1.05);
+}
